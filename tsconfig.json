@@ -6,8 +6,12 @@
         "sourceMap": false,
         "strictNullChecks": true,
         "noEmitOnError": false,
-        "noUnusedParameters": true
+        "noUnusedParameters": true,
+        "outDir": "dist/"
     },
+    "include": [
+        "src/**/*"
+    ],
     "exclude": [
         "node_modules",
         ".DS_Store"
