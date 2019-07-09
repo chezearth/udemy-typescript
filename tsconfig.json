@@ -7,7 +7,8 @@
         "strictNullChecks": true,
         "noEmitOnError": false,
         "noUnusedParameters": true,
-        "outDir": "dist/"
+        "outDir": "dist/",
+        "experimentalDecorators": true
     },
     "include": [
         "src/**/*"

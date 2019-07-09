@@ -38,10 +38,10 @@ myColour = Colour.grey;
 console.log(myColour);
 
 // any
-let car: any = 'BMW';
-console.log(car);
-car = { make: 'BMW', series: 3 };
-console.log(car);
+// let car: any = 'BMW';
+// console.log(car);
+// car = { make: 'BMW', series: 3 };
+// console.log(car);
 
 // functions
 function returnMyName(): string {
@@ -116,3 +116,16 @@ canBeNull = null;
 let canAlsoBeNull;
 let canThisBeAny = null;
 // canThisBeAny = 12;
+
+
+function logConstructor(constructor: Function) {
+  console.log(constructor());
+}
+
+@logConstructor
+class MyClass {
+
+  constructor() {
+    return 'Hi, this is the class constructor!'
+  }
+}

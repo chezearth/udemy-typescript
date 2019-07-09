@@ -6,7 +6,7 @@ console.log(double(10));
 // Exercise 2 - If only we could provide some default values...
 var greet = function (name) {
     if (name === void 0) { name = 'Max'; }
-    return console.log("Hello, " + name);
+    console.log("Hello, " + name);
 };
 greet();
 greet("Anna");
